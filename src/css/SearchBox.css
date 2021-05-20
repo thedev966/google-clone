@@ -1,0 +1,75 @@
+.homepage__bodyForm {
+  width: 90%;
+  max-width: 530px;
+  display: flex;
+  flex-direction: column;
+}
+
+.homepage__bodyInput {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 40px;
+  border: 1px solid lightgray;
+  padding: 8px;
+  padding-left: 20px;
+}
+
+.homepage__bodyInput:focus,
+.homepage__bodyInput:hover {
+  box-shadow: 0px 0px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.homepage__searchIcon {
+  color: rgb(151, 151, 151);
+  cursor: pointer;
+  margin-right: 14px;
+}
+
+.homepage__searchIconRight {
+  color: #4285f4;
+  cursor: pointer;
+  margin-right: 14px;
+  padding-left: 14px;
+  border-left: 1px solid lightgray;
+}
+
+.homepage__searchInput {
+  flex: 1;
+  height: 30px;
+  margin-right: 10px;
+  border: 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: #111;
+}
+
+.homepage__searchInput:focus {
+  outline: none;
+}
+
+.homepage__bodyButtons {
+  display: none;
+  margin-top: 26px;
+  justify-content: center;
+}
+
+.showButtons {
+  display: flex;
+}
+
+.homepage__bodyButton {
+  background-color: #f8f9fa !important;
+  border: 1px solid #f8f9fa !important;
+  font-size: 14px !important;
+  border-radius: 4px !important;
+  color: #3c4043 !important;
+  text-transform: unset !important;
+  margin-right: 13px !important;
+}
+
+.homepage__bodyButton:hover {
+  border: 1px solid #d3d3d3 !important;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+}

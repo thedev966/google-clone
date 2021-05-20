@@ -1,0 +1,5 @@
+const GOOGLE_SEARCH_API_KEY = "AIzaSyA0MVMrGZStMLFL0euWz8G6-QDVy9hzcgQ";
+const GOOGLE_CONTEXT_KEY = "4bce4388b0cea922c";
+
+export default GOOGLE_SEARCH_API_KEY;
+export { GOOGLE_CONTEXT_KEY };
